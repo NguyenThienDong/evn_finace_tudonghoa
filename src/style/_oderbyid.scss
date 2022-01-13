@@ -1,0 +1,226 @@
+.oder-management {
+  .oder-header-id-c {
+    display: flex;
+    justify-content: space-between;
+    .oder-header-id {
+      width: 60%;
+      display: flex;
+      padding: 10px 0px 10px 0px;
+      label {
+        margin-right: 15px;
+        font-weight: bold;
+        color: #ef1717;
+        font-size: 15px;
+      }
+      h3 {
+        margin-left: 15px;
+        font-size: 15px;
+        margin-top: 3px;
+      }
+    }
+    .oder-header-id-button{
+      .tc{
+        font-size: 13px;
+        color: #696969;
+      }
+      .pd{
+        font-size: 13px;
+        background: #038B00;
+        color: white;
+      }
+      .ant-btn{
+        font-size: 13px;
+        width: 125px;
+        height: 45px;
+        border-radius: 7px;
+
+      }
+    }
+  }
+  .Info-partner {
+    width: 100%;
+    .Info-partner-product {
+      width: 100%;
+      padding: 5px 5px 5px 5px;
+      min-height: 150px;
+      label {
+        color: #585858;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .product {
+        margin-top: 10px;
+        .form {
+          width: 100%;
+          min-height: 170px;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 15px;
+          box-shadow: 0px 1px 5px 0px #00000026;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          .form-input {
+            width: 30%;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            label {
+              width: 100%;
+            }
+            .ant-select {
+              width: 100%;
+              .ant-select-selector {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .Info-partner-general {
+      width: 100%;
+      padding: 5px 5px 5px 5px;
+      min-height: 150px;
+      label {
+        color: #585858;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .general {
+        margin-top: 10px;
+        .form {
+          width: 100%;
+          min-height: 170px;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 15px;
+          box-shadow: 0px 1px 5px 0px #00000026;
+          display: flex;
+          justify-content: space-around;
+          .form-input {
+            width: 30%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            label {
+              width: 100%;
+            }
+            .ant-select {
+              width: 100%;
+              .ant-select-selector {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .Info-partner-customer {
+      width: 100%;
+      padding: 5px 5px 5px 5px;
+      min-height: 150px;
+      label {
+        color: #585858;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .customer {
+        margin-top: 10px;
+        .form {
+          background-color: white;
+          box-shadow: 0px 1px 5px 0px #00000026;
+          border-radius: 10px;
+          margin-bottom: 15px;
+          width: 100%;
+          min-height: 170px;
+          padding: 15px 0px 15px 0px;
+
+          .form-customer {
+            width: 100%;
+            min-height: 170px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 0px 15px 0px;
+
+            .form-input {
+              width: 30%;
+              margin-bottom: 20px;
+              display: flex;
+              flex-direction: column;
+              label {
+                width: 100%;
+              }
+              .ant-select {
+                width: 100%;
+                .ant-select-selector {
+                  width: 100%;
+                }
+              }
+            }
+          }
+          .form-customer-1 {
+            width: 97%;
+            margin: 0 auto;
+            .form-input-1 {
+              width: 100%;
+              margin-bottom: 20px;
+              display: flex;
+              flex-direction: column;
+            }
+          }
+          .form-customer-2 {
+            width: 97%;
+            margin: 0 auto;
+            span {
+              color: #535353;
+              font-size: 13px;
+            }
+            .form-customer-1 {
+              width: 100%;
+              min-height: 170px;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              padding: 15px 0px 15px 0px;
+
+              .form-input {
+                width: 23%;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                label {
+                  width: 100%;
+                  margin-left: 60px;
+                }
+                .imagecover {
+                  width: 100%;
+                  border: 1px dashed #cecece;
+                  height: 200px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+ 
+}
+
+.oder-id-modal{
+  .ant-modal-header{
+    background: #EF1717;
+  
+    .ant-modal-title{
+      font-weight:700;
+      font-size: 16px;
+      color: white;
+    }
+  }
+}

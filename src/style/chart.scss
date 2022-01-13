@@ -1,0 +1,28 @@
+.home-body {
+   .body-left {
+      width: 73%;
+      background: #fff;
+      border-radius: 10px;
+      margin: 5px;
+      .container-chart {
+         height: 500px;
+         padding: 10px 7px 5px 10px;
+         
+      }
+      h1 {
+         font-style: normal;
+         font-weight: bold;
+         font-size: 23px;
+         line-height: 30px;
+         color: #464646;
+      }
+      h3 {
+         letter-spacing: 0.02em;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 17px;
+         line-height: 22px;
+         opacity: 0.5;
+      }
+   }
+}

@@ -1,0 +1,14 @@
+.fillter-approval {
+    display: flex;
+    justify-content: space-between;
+}
+.item-fillter {
+    flex: 0 0 400px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.fillter-approval .row-search {
+    width: 600px;
+}

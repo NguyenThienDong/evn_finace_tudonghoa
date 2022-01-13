@@ -1,0 +1,155 @@
+.home-body {
+    display: flex;
+    margin-top: 18px;
+    .body-right {
+        width: 25%;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 5px;
+        .container {
+            .title {
+                color: #000;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 34px;
+                margin: 10px;
+                .calender {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid red;
+                    .calendar-box {
+                        width: 15%;
+                        h3 {
+                            color: #000;
+                            background-color: #f8f8ff;
+                            border-radius: 13px;
+                            font-size: 15px;
+                            line-height: 25px;
+                            letter-spacing: 0.02em;
+                            text-align: center;
+                            padding: 3px 5px 3px 5px !important;
+                            span {
+                                display: block;
+                            }
+                            span:last-child {
+                                font-weight: 600;
+                            }
+                        }
+                        h3.active {
+                            color: #fff;
+                            background-color: #0f123f;
+                        }
+                    }
+                }
+            }
+
+            .system {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap-reverse;
+                padding: 10px 5px;
+                .total {
+                    // height: 95px;
+                    background: #ffffff;
+                    box-shadow: 0px 0px 14px rgba(165, 165, 165, 0.2);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 5px;
+                    flex-flow: row wrap;
+                    margin: 10px;
+                    width: auto;
+                    cursor: pointer;
+                }
+                .total:hover{
+                   .order{
+                    h1 {
+                       color: blue;
+                    }
+                    p {
+                       color: blue;
+                    }
+                    span{
+                       color: blue;
+                    }
+                   }
+                    
+                }
+                .total:first-child {
+                    margin-bottom: 10px;
+                }
+                
+                .circle {
+                    width: 48.32px;
+                    height: 48.32px;
+                    background: #f8f8f8;
+                    border-radius: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    object-fit: cover;
+                    flex-shrink: 0;
+                    p {
+                        font-size: 11px;
+                        color: #737373;
+                        font-weight: bold;
+                        font-size: 11px;
+                        line-height: 13px;
+                        margin: auto;
+                    }
+                }
+                .order {
+                    // background-color: cyan;
+                    padding-left: 20px;
+                    flex: 1;
+
+                    h1 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #737373;
+                    }
+                    p {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 130.5%;
+                        color: #e45656;
+                    }
+
+                    span {
+                        font-weight: bold;
+                        font-size: 12px;
+                        line-height: 130.5%;
+                        color: #e45656;
+                    }
+                }
+
+                .box-green {
+                    // background-color: cyan;
+                    padding-left: 20px;
+                    flex: 1;
+                    h1 {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #737373;
+                    }
+                    p {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 130.5%;
+                        color: #3fa543;
+                    }
+
+                    span {
+                        font-weight: bold;
+                        font-size: 12px;
+                        line-height: 130.5%;
+                        color: #3fa543;
+                    }
+                }
+            }
+        }
+    }
+}

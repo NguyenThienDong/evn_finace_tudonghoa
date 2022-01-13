@@ -1,0 +1,19 @@
+.gx-page-topic {
+  margin: -32px -32px 20px;
+  background-color: #F8F8F9;
+  border-bottom: 1px solid #e4e0e0;
+}
+
+.ant-page-header-content {
+  padding-top: 0;
+}
+
+.ant-descriptions-small .ant-descriptions-row > th, .ant-descriptions-small .ant-descriptions-row > td {
+  padding-bottom: 0;
+}
+
+body .ant-page-header-heading-title {
+  color: #000000;
+  font-weight: 400;
+  font-size: 26px;
+}

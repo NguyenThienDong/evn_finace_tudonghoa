@@ -1,0 +1,214 @@
+.oder-management {
+  .oder-header {
+    width: 100%;
+    label{
+      float: left;
+    }
+    h3{
+      float: left;
+
+    }
+    .oder-tilte {
+      width: 100%;
+      font-weight: 700;
+      color: #252733;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .oder-box-partner {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .box-total {
+        width: 23%;
+        height: 150px;
+        background: #29cc97;
+        box-shadow: 0px 0px 20px 0px #6969691a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 30px;
+        label {
+          color: white;
+          font-weight: 600;
+          font-size: 11px;
+        }
+        h3 {
+          color: white;
+          font-weight: 900;
+          font-size: 23px;
+          margin-top: 10px;
+        }
+      }
+      .box-pending {
+        width: 23%;
+        height: 150px;
+        background: #fec400;
+        box-shadow: 0px 0px 20px 0px #6969691a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 30px;
+        label {
+          color: white;
+          font-weight: 600;
+          font-size: 11px;
+        }
+        h3 {
+          color: white;
+          font-weight: 900;
+          font-size: 23px;
+          margin-top: 10px;
+        }
+      }
+      .box-sale {
+        width: 23%;
+        height: 150px;
+        background: #00b4dc;
+        box-shadow: 0px 0px 20px 0px #6969691a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 30px;
+        label {
+          color: white;
+          font-weight: 600;
+          font-size: 11px;
+        }
+        h3 {
+          color: white;
+          font-weight: 900;
+          font-size: 23px;
+          margin-top: 10px;
+        }
+      }
+      .box-cancelled {
+        width: 23%;
+        height: 150px;
+        background: #dd3c3c;
+        box-shadow: 0px 0px 20px 0px #6969691a;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 30px;
+        label {
+          color: white;
+          font-weight: 600;
+          font-size: 11px;
+        }
+        h3 {
+          color: white;
+          font-weight: 900;
+          font-size: 23px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  .oder-table-partner {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 8px;
+    .ant-table-wrapper {
+      background-color: white !important;
+      .ant-spin-nested-loading {
+        .ant-table-cell {
+            background-color: white !important;
+          }
+      }
+    }
+    .table-nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 70px;
+      align-items: center;
+      padding: 0px 5px 0px 5px !important;
+      .ant-input-affix-wrapper {
+        width: 25%;
+        height: 40px;
+        border-radius: 5px;
+      }
+      .ant-picker {
+        width: 25%;
+        height: 40px;
+        border-radius: 5px;
+      }
+      .ant-select {
+        width: 17%;
+        border-radius: 5px;
+        .ant-select-selector {
+          height: 40px;
+          border-radius: 5px;
+        }
+      }
+      label {
+        font-size: 14px;
+        color: #4b506d;
+      }
+      .ant-btn {
+        border-radius: 5px;
+        height: 40px;
+        color: #787878;
+        font-size: 12px;
+      }
+    }
+  }
+  .oder-table-outside{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 8px;
+    .ant-table-wrapper {
+      background-color: white !important;
+      .ant-spin-nested-loading {
+        .ant-table-cell {
+            background-color: white !important;
+          }
+      }
+    }
+  }
+  .table-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 0px 5px 0px 5px !important;
+    .ant-input-affix-wrapper {
+      width: 20%;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .ant-picker {
+      width: 20%;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .ant-select {
+      width: 17%;
+      border-radius: 5px;
+      .ant-select-selector {
+        height: 40px;
+        border-radius: 5px;
+      }
+    }
+    label {
+      font-size: 14px;
+      color: #4b506d;
+    }
+    .ant-btn {
+      border-radius: 5px;
+      height: 40px;
+      color: #787878;
+      font-size: 12px;
+    }
+  }
+}

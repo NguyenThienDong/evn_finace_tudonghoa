@@ -1,0 +1,9 @@
+.screen-login {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.login {
+    padding: 2rem;
+}

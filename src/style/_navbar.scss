@@ -1,0 +1,112 @@
+
+.oder-management {
+    .oder-header {
+      width: 100%;
+      .oder-tilte {
+          width: 100%;
+          font-weight: 700;
+          color: #252733;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      .oder-box-partner {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .box-total{
+              width: 23%;
+              height: 150px;
+              background: #29CC97;
+              box-shadow: 0px 0px 20px 0px #6969691A;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 20px;
+              padding-top: 30px;
+              label{
+                  color: white;
+                  font-weight: 600;
+                  font-size: 11px;
+              }
+              h3{
+                  color: white;
+                  font-weight: 900;
+                  font-size: 23px;
+                  margin-top: 10px;
+              }
+          }
+          .box-pending{
+              width: 23%;
+              height: 150px;
+              background: #FEC400;
+              box-shadow: 0px 0px 20px 0px #6969691A;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 20px;
+              padding-top: 30px;
+              label{
+                  color: white;
+                  font-weight: 600;
+                  font-size: 11px;
+              }
+              h3{
+                  color: white;
+                  font-weight: 900;
+                  font-size: 23px;
+                  margin-top: 10px;
+              }
+          }
+          .box-sale{
+              width: 23%;
+              height: 150px;
+              background: #00B4DC;
+              box-shadow: 0px 0px 20px 0px #6969691A;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 20px;
+              padding-top: 30px;
+              label{
+                  color: white;
+                  font-weight: 600;
+                  font-size: 11px;
+              }
+              h3{
+                  color: white;
+                  font-weight: 900;
+                  font-size: 23px;
+                  margin-top: 10px;
+              }
+          }
+          .box-cancelled{
+              width: 23%;
+              height: 150px;
+              background: #DD3C3C;
+              box-shadow: 0px 0px 20px 0px #6969691A;
+              border-radius: 10px;
+              display: flex;
+              flex-direction: column;
+              padding-left: 20px;
+              padding-top: 30px;
+              label{
+                  color: white;
+                  font-weight: 600;
+                  font-size: 11px;
+              }
+              h3{
+                  color: white;
+                  font-weight: 900;
+                  font-size: 23px;
+                  margin-top: 10px;
+              }
+          }
+      }
+    }
+    .oder-table-partner{
+       width: 100%;
+       height: 300px;
+       margin-top: 30px;
+    }
+  }
+  
